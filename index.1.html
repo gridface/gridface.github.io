@@ -8,28 +8,31 @@
 	
 	<title>Words@Gridface</title>
 
-	<!-- Icons -->
-	<link rel="shortcut icon" href="brutal/assets/icons/bf44.png" type="image/x-icon" />
-	<link rel="icon" href="brutal/assets/icons/bf15.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="brutal/assets/icons/bf57.png" />	
-	<!-- CSS  -->
-	<link href="brutal/css/core/core.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap itself -->
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/magister.css">
+
+	<!-- Fonts -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 </head>
 
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
 
-<body class="lime">
 
-	<div class="sticky-top stack-high skew mango center tomato-border ">
-		<h1 class="flow-text lucida-text no-padding skew-right">
-			<p><a href="http:/www.gridfacesolutions.com" class="btn skew-right eggplant">View Gridface Home</a></p>
-		</h1>
-	</div>
 <!-- Main (Home) section -->
-<section>
+<section class="section" id="head">
 	<div class="container">
 
 		<div class="row">
 			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
+
+				<!-- Site Title, your name, HELLO msg, etc. -->
 				<h1 class="title">Words @ Gridface</h1>
 				<h2 class="subtitle"></h2>
 
@@ -39,7 +42,7 @@
 				</h3>
 				
 				<!-- Nice place to describe your site in a sentence or two -->
-				
+				<p><a href="http:/www.gridfacesolutions.com" class="btn btn-default btn-lg">View Our Webpage</a></p>
 	
 			</div> <!-- /col -->
 		</div> <!-- /row -->
@@ -52,8 +55,8 @@
 	<div class="container" >
 	<div class="blog-entry">
 			<div class="row">
-					<h2 class="blue-candy hr.cut-dark text-center">Designing For Desktop and Mobile in 2018</h2>
-				<div class="box-shadow-fat blue-candy col-sm-4 col-sm-offset-2 col-lg-8" >    
+					<h2 class="text-center title">Designing For Desktop and Mobile in 2018</h2>
+				<div class="col-sm-4 col-sm-offset-2 col-lg-8" >    
 						
 					<h5><strong>Why Am I Still Attached To This Bulky Laptop?<br></strong></h5>
 					<p>
@@ -99,9 +102,9 @@
 							<p><em>-Anton</em></p>
 				</div>
 			</div>
-		<h2 class="hr.cut-dark lemon text-center">On The Virtues of Heroku</h2>
+		<h2 class="text-center title">On The Virtues of Heroku</h2>
 		<div class="row">
-			<div class="box-shadow-fat lemon col-sm-4 col-sm-offset-2 col-lg-8" >    
+			<div class="col-sm-4 col-sm-offset-2 col-lg-8" >    
 
 				<h5><strong>On The Hunt For A New Host<br></strong></h5>
 				<p>
@@ -132,9 +135,9 @@
 				<p><em>-Anton</em></p>
 			</div>
 		</div>
-				<h2 class="hr.cut-dark peanut-butter text-center">Happy To Be Here!</h2>
+				<h2 class="text-center title">Happy To Be Here!</h2>
 		<div class="row">
-			<div class="box-shadow-fat peanut-butter col-sm-4 col-sm-offset-2 col-lg-8" >    
+			<div class="col-sm-4 col-sm-offset-2 col-lg-8" >    
 				<p>As the first article on this page, there is some decorum that must be followed. Namely: thanking you for reading, introducing myself, and giving an overview of the intent of this writing space. </p>  
 				<p>	Let’s get right down to it…
 				</p>
@@ -156,31 +159,92 @@
 	</div>
 </section>
 
+<!--
+ Third (Works) section 
+<section class="section" id="themes">
+	<div class="container">
+	
+		<h2 class="text-center title">More Themes</h2>
+		<p class="lead text-center">
+			Huge thank you to all people who publish<br>
+			their photos at <a href="http://unsplash.com">Unsplash</a>, thank you guys!
+		</p>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<img src="assets/screenshots/sshot1.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="assets/screenshots/sshot4.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail">
+					<img src="assets/screenshots/sshot5.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="assets/screenshots/sshot3.jpg" alt="">
+					<div class="caption">
+						<h3>Thumbnail label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+-->
+
+<!-- Fourth (Contact) section -->
 <section class="section" id="contact">
 	<div class="container">
 	
-		<h2 class="text-center huge">GET IN T<span class="baffle-forever">OU</span>CH</h2>
+		<h2 class="text-center title">Get in touch</h2>
 
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<p class="scroll-left bigger">Have a question about my work, or want to suggest a new feature? Feel free to email me, or drop me a line on Github!</p>
-				<p class="huge blink-fast"><b>tonycagle1 at gmail dot com</b><br><br></p>
-					<div class="sticky-top-right">
-						<div>
-							<a href="https://github.com/gridface" class="button glitch black yellow-text flow-text"> Github</a>
-						</div>
-						<div>
-							<a href="http://linkedin/in/anton-cagle" class="button glitch black yellow-text flow-text">LinkedIn</a>
-						</div>
-					</div>			
+				<p class="lead">Have a question about my work, or want to suggest a new feature?</p>
+				<p>Feel free to email me, or drop me a line on Github!</p>
+				<p><b>tonycagle1 at gmail dot com</b><br><br></p>
+				<ul class="list-inline list-social">
+<!--					<li><a href="https://twitter.com/AntonEckhart" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>-->
+					<li><a href="https://github.com/gridface" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
+					<li><a href="http://linkedin/in/anton-cagle" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+				</ul>
 			</div>
 		</div>
 
 	</div>
 </section>
-<!--  Scripts-->
-<script src="brutal/js/jquery.js"></script>
-<script src="brutal/js/brutalist.js"></script>
-<script src="brutal/js/start.brutalizing.js"></script>
+
+
+<!-- Load js libs only when the page is loaded. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="assets/js/magister.js"></script>
 </body>
 </html>
